@@ -8,7 +8,15 @@ module.exports = {
     fontFamily: {
       Kaushan: ['Kaushan Script'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        indigo: {
+          light: '#b3bcfd',
+          default: '#5c6ac4',
+          dark: '#202e78'
+        }
+      }
+    },
   },
   plugins: [],
 }
