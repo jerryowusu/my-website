@@ -8,7 +8,7 @@ const Sidebar = () => {
   return (
     <div>
         <img src="https://user-images.githubusercontent.com/65233860/181785521-5f215dac-27a6-40cf-aa32-193ad69531af.jpeg" alt="my image" 
-        className="w-40 h-40 mx-auto my-4 rounded-full" />
+        className="w-40 h-40 mx-auto my-4 rounded-full " />
         
         <h5 className='my-4 text-3xl font-medium tracking-wider font-Kaushan'> <span className='text-blue-400' >Jerry</span>  Owusu</h5>
         <p className='px-2 py-1 my-3 bg-gray-200 rounded-full' >
