@@ -11,7 +11,11 @@ const NavItem: FunctionComponent<{
     return activeItem !== name ? (
         <Link href={route}>
             <a>
-                <span onClick={() => setActiveItem(name)}>{name}</span>
+                <span 
+                onClick={() => setActiveItem(name)} 
+                className='hover:text-green'>
+                  {name}
+                </span>
             </a>
         </Link>
     ) : null
@@ -25,9 +29,9 @@ const Navbar = () => {
 
     useEffect(() => {
         if (pathname === '/') setActiveItem('About');
-        if (pathname === '/') setActiveItem('Projects');
-        if (pathname === '/') setActiveItem('Resume');
-     },[]);
+        if (pathname === '/projects') setActiveItem('Projects');
+        if (pathname === '/resume') setActiveItem('Resume');
+     },[pathname]);
 
   return (
     <div className='flex justify-between px-5 py-3 mx-3 my-6' >

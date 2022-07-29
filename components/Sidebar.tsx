@@ -31,7 +31,7 @@ const Sidebar = () => {
                 <FaAngellist className='w-8 h-8' />
             </a>
         </div>
-        <div className='py-4 my-5 bg-gray-200' >
+        <div className='py-4 my-5 bg-gray-200' style={{marginLeft: '-1rem', marginRight: '-1rem'}}>
             <div className='flex items-center justify-center space-x-2' >
                 <GoLocation className='w-5 h-5'/>
                 <span>Accra, Ghana</span>
@@ -39,10 +39,10 @@ const Sidebar = () => {
             <p className='my-2'>jerryowusu6133@gmail.com</p>
             <p className='my-2'>+233248045875</p>
         </div>
-        <button className='w-7/12 h-12 py-2 my-3 rounded-full bg-gradient-to-r from-blue-400 to-green-300 focus:outline-none' 
+        <button className='w-8/12 py-2 my-2 text-white rounded-full bg-gradient-to-r from-blue-400 to-green-300 focus:outline-none' 
         onClick={() => window.open('mailto: jerryowusu6133@gmail.com')}
         >Contact me</button>
-        <button className='w-7/12 h-12 py-2 my-3 rounded-full bg-gradient-to-r from-blue-400 to-green-300 ' > Toggle Theme</button>
+        <button className='w-8/12 py-2 my-2 text-white rounded-full bg-gradient-to-r from-blue-400 to-green-300 ' > Toggle Theme</button>
     </div>
   )
 }
