@@ -55,7 +55,7 @@ const Navbar = () => {
           activeItem={activeItem} 
           setActiveItem={setActiveItem} 
           name='Resume' 
-          route='/resumes' 
+          route='/resume' 
           /> 
         </div>
     </div>
