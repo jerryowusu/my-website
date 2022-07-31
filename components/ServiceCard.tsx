@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react'
-import { Iservices } from '../type'
+import { IServices } from '../type'
 
-const ServiceCard:FunctionComponent<{service:Iservices}> = ({
+const ServiceCard:FunctionComponent<{service:IServices}> = ({
     service: { Icon, about, title }
 }) => {
 
@@ -12,7 +12,7 @@ const ServiceCard:FunctionComponent<{service:Iservices}> = ({
     }
   return (
     <div className='flex items-center p-2 space-x-4'>
-        <Icon className='w-12 h-12 text-blue-400'/>
+        <Icon className='w-16 h-16 text-green'/>
         <div>
             <h4 className='font-bold' >{title}</h4>
             <p dangerouslySetInnerHTML={createMarkup()} />
