@@ -30,7 +30,7 @@ const ProjectCard: FunctionComponent<{
         className='cursor-pointer' 
         width='300'
         height='150'
-        // layout='fill'
+        layout='responsive'
         onClick={() => setShowDetails(true)} />
         <p className="my-2 text-center">{name}</p>
 
@@ -69,10 +69,10 @@ const ProjectCard: FunctionComponent<{
                     </a>
                 </div>
             </motion.div>
-        <div>
-            <h2 className='mb-3 text-xl font-medium md:text-2xl'>{name}</h2>
-            <h3 className='mb-3 font-medium'>{description}</h3>
-            <div className='flex flex-wrap mt-5 space-x-2 text-sm tracking-wider'>
+        <motion.div variants={stagger} initial='initial' animate='animate'>
+            <motion.h2 variants={fadeInUP} className='mb-3 text-xl font-medium md:text-2xl'>{name}</motion.h2>
+            <motion.h3 variants={fadeInUP} className='mb-3 font-medium'>{description}</motion.h3>
+            <motion.div variants={fadeInUP}v className='flex flex-wrap mt-5 space-x-2 text-sm tracking-wider'>
                 {
                     tech_stacks.map((tech) => (
                         <span key={tech} 
@@ -82,8 +82,8 @@ const ProjectCard: FunctionComponent<{
                         </span>
                     ))
                 }
-            </div>
-        </div>
+            </motion.div>
+        </motion.div>
         <button onClick={() => setShowDetails(false)}
         className='absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200'
         >

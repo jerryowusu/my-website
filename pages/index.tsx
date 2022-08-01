@@ -1,14 +1,21 @@
 import React from 'react'
+import { NextPage } from 'next'
 import ServiceCard from '../components/ServiceCard';
 import services from '../data';
 import { motion } from 'framer-motion';
-import { fadeInUP } from '../animations'
+import { fadeInUP, routeAnimation } from '../animations'
 import { stagger } from '../animations';
 
-const index = () => {
+const About: NextPage = () => {
 
   return (
-  <div className='flex flex-col px-6 pt-1 flex-grow' >
+  <motion.div 
+  className='flex flex-col px-6 pt-1 flex-grow'
+  variants={routeAnimation}
+  initials='initial'
+  animate='animate'
+  exit='exit'
+  >
     <h5 className='my-3 font-medium'>I am a dynamic, proficient, and active young man with highly developed skills in problem identification and the implementation of effective solutions. I Successfully combined studies with work and other commitments, proving to be self-motivated, very organized, and capable of working under pressure.</h5>
     <h5>I am currently looking for job opportunities that will help me grow and become one of the best Software Engineers. Have exciting projects to work on? Contact me at jerryowusu6133@gmail.com, let's make the world a better place.</h5>
     <div    
@@ -32,8 +39,8 @@ const index = () => {
         }
       </motion.div>
     </div>
-  </div>
+  </motion.div>
 )
 }
 
-export default index
+export default About
