@@ -9,7 +9,9 @@ import { stagger, fadeInUP, routeAnimation } from '../animations'
 const Projects = () => {
 
   const [projects, setProjects] = useState(projectsData);
-  const [active, setActive] = useState('All')
+  const [active, setActive] = useState('All');
+
+  const [showDetails, setShowDetails] = useState<number | null>(null);
 
   const handleFilteredCategory = (category: Category | 'All') => {
     if(category === 'All') {
@@ -46,7 +48,10 @@ const Projects = () => {
             <motion.div 
             variants={fadeInUP}
             className='col-span-12 sm:col-span-6 lg:col-span-4 p-2 rounded-lg bg-gray-200 dark:bg-dark-200' key={project.name}>
-              <ProjectCard project={project} />
+              <ProjectCard 
+              project={project} 
+              showDetails={showDetails} 
+              setShowDetails={setShowDetails} />
             </motion.div>
           ))}
       </motion.div>

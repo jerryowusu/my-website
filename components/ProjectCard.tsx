@@ -7,9 +7,12 @@ import { motion } from 'framer-motion';
 import { stagger, fadeInUP } from '../animations';
 
 const ProjectCard: FunctionComponent<{
-    project: IProject
+    project: IProject,
+    showDetails: null | number,
+    setShowDetails: (id: number | null) => void;
 }> = ({
     project: {
+        id,
         name,
         description, 
         image_url, 
@@ -17,10 +20,10 @@ const ProjectCard: FunctionComponent<{
         github_link, 
         category,
         tech_stacks
-    }
+    },
+    showDetails,
+    setShowDetails,
 }) => {
-
-    const [showDetails, setShowDetails] = useState(false);
 
   return (
     <div>
@@ -31,16 +34,17 @@ const ProjectCard: FunctionComponent<{
         width='300'
         height='150'
         layout='responsive'
-        onClick={() => setShowDetails(true)} />
+        onClick={() => setShowDetails(id)} />
         <p className="my-2 text-center">{name}</p>
 
-        {showDetails && (
+        {showDetails === id && (
         <div className="grid md:grid-cols-2 absolute top-0 
-        left-0 z-10 w-full h-auto text-black bg-gray-100 p-2">
+        left-0 z-10 w-full h-auto text-black bg-gray-100 p-2 md:p-10 rounded-lg">
             <motion.div 
              variants={stagger} 
              initial="initial"
              animate='animate'
+             className='border-4 border-gray-100'
             >
                 <motion.div
                 variants={fadeInUP}
@@ -84,7 +88,7 @@ const ProjectCard: FunctionComponent<{
                 }
             </motion.div>
         </motion.div>
-        <button onClick={() => setShowDetails(false)}
+        <button onClick={() => setShowDetails(null)}
         className='absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200'
         >
             <MdClose size={30} />
