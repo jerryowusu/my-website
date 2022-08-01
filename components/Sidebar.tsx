@@ -23,9 +23,9 @@ const Sidebar = () => {
         <p className='px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 dark:bg-black-500 rounded-full' >
             Full-Stack Engineer
         </p>
-        <a href="/assets/jerry-owusu resume.pdf"
+        <a href="/images/Jeremiah-Owusu.pdf" target='_blank'
             className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-full'
-            download="jerry-owusu-resume.pdf"
+            download="Jeremiah-Owusu.pdf"
             >
             <GrDocumentDownload className='w-6 h-6 mx-3' /> Download Resume
         </a>
