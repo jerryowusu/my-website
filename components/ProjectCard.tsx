@@ -2,7 +2,9 @@ import React, { FunctionComponent, useState } from 'react'
 import { AiFillGithub, AiFillProject } from 'react-icons/ai'
 import { MdClose } from 'react-icons/md'
 import { IProject } from '../type'
-// import Image from 'next/image';
+import Image from 'next/image';
+import { motion } from 'framer-motion';
+import { stagger, fadeInUP } from '../animations';
 
 const ProjectCard: FunctionComponent<{
     project: IProject
@@ -22,21 +24,36 @@ const ProjectCard: FunctionComponent<{
 
   return (
     <div>
-        <img 
+        <Image 
         src={image_url} 
         alt={name} 
         className='cursor-pointer' 
-        // width='300'
-        // height='150'
-        // layout='responsive'
+        width='300'
+        height='150'
+        // layout='fill'
         onClick={() => setShowDetails(true)} />
         <p className="my-2 text-center">{name}</p>
 
         {showDetails && (
         <div className="grid md:grid-cols-2 absolute top-0 
         left-0 z-10 w-full h-auto text-black bg-gray-100 p-2">
-            <div>
-                <img src={image_url} alt={name} />
+            <motion.div 
+             variants={stagger} 
+             initial="initial"
+             animate='animate'
+            >
+                <motion.div
+                variants={fadeInUP}
+                >
+                    <Image
+                    src={image_url} 
+                    alt={name} 
+                    className='cursor-pointer' 
+                    width='300'
+                    height='150'
+                    layout='responsive'
+                    />
+                </motion.div>
                 <div className='flex justify-center my-4 space-x-3'>
                     <a 
                     href={github_link}
@@ -51,7 +68,7 @@ const ProjectCard: FunctionComponent<{
                         <AiFillProject /> <span>Project</span>
                     </a>
                 </div>
-            </div>
+            </motion.div>
         <div>
             <h2 className='mb-3 text-xl font-medium md:text-2xl'>{name}</h2>
             <h3 className='mb-3 font-medium'>{description}</h3>
