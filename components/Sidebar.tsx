@@ -30,13 +30,13 @@ const Sidebar = () => {
             <GrDocumentDownload className='w-6 h-6 mx-3' /> Download Resume
         </a>
         <div className='flex justify-around my-5 text-green w-12/12' >
-            <a href="https://github.com/jerryowusu">
+            <a href="https://github.com/jerryowusu" rel='noreferrer' target='_blank'>
                 <AiFillGithub className='w-8 h-8' />
             </a>
-            <a href="https://www.linkedin.com/in/jerry-owusu">
+            <a href="https://www.linkedin.com/in/jerry-owusu" rel='noreferrer' target='_blank'>
                 <AiFillLinkedin className='w-8 h-8' />
             </a>
-            <a href="https://angel.co/u/jerry-owusu1">
+            <a href="https://angel.co/u/jerry-owusu1" rel='noreferrer' target='_blank'>
                 <FaAngellist className='w-8 h-8' />
             </a>
         </div>
