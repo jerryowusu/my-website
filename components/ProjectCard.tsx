@@ -76,7 +76,7 @@ const ProjectCard: FunctionComponent<{
         <motion.div variants={stagger} initial='initial' animate='animate'>
             <motion.h2 variants={fadeInUP} className='mb-3 text-xl font-medium md:text-2xl'>{name}</motion.h2>
             <motion.h3 variants={fadeInUP} className='mb-3 font-medium'>{description}</motion.h3>
-            <motion.div variants={fadeInUP}v className='flex flex-wrap mt-5 space-x-2 text-sm tracking-wider'>
+            <motion.div variants={fadeInUP} className='flex flex-wrap mt-5 space-x-2 text-sm tracking-wider'>
                 {
                     tech_stacks.map((tech) => (
                         <span key={tech} 
