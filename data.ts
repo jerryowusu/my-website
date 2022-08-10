@@ -106,10 +106,41 @@ export const tools: ISkill[] = [
 
 export const projects: IProject[] = [
     {
+        id:7,
+        name: 'Budget Manager',
+        description: 'Budget Manager is a Ruby on Rails capstone project about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+        image_url: '/images/budgetmanager.png',
+        deployed_url: 'https://budget-manager1.herokuapp.com/',
+        github_link: 'https://github.com/jerryowusu/BudgetManagers',
+        category: ['Ruby/Rails'],
+        tech_stacks: ['Ruby', 'Rails', 'Postgresql', 'Bootstrap']
+      },
+      {
+          id:8,
+          name: 'My Website',
+          description: 'My official portfolio website created with Typescript, React and NextJs. Designed with Tailwind Css and Framer Motion',
+          image_url: '/images/mywebsite.png',
+          deployed_url: 'https://my-website-q1xq02bnc-jerryowusu.vercel.app/',
+          github_link: 'https://github.com/jerryowusu/my-website',
+          category: ['TypeScript/JS', 'React/NextJs'],
+          tech_stacks: ['React', 'Redux', 'JavaScript', 'NextJs', 'Framer Motion']
+        },  
+        {
+            id:9,
+            name: 'Car Rental',
+            description: 'This is a car rental website that allows you to view a variety of cars and book them at different rates. User can see car details, delete or reserve a car. This is one of my first fullstack projects made with 2 other colleagues',
+            image_url: '/images/car-rentals.png',
+            deployed_url: 'https://my-website-q1xq02bnc-jerryowusu.vercel.app/',
+            github_link: 'https://github.com/jerryowusu/final-capstone-frontend',
+            category: ['TypeScript/JS', 'React/NextJs', 'Ruby/Rails'],
+            tech_stacks: ['React', 'Redux', 'JavaScript', 'NextJs', 'Ruby on Rails', 'Postgresql', 'Bootstrap']
+          },  
+    
+    {
       id:1,
       name: 'Math Magicians',
       description: 'An educational project for making a React calculator',
-      image_url: '/images/math_magicians.png',
+      image_url: '/images/math-magicians.png',
       deployed_url: 'https://jmath-magicians.herokuapp.com/math-magicians/',
       github_link: 'https://github.com/jerryowusu/math-magicians',
       category: ['React/NextJs'],
@@ -129,7 +160,7 @@ export const projects: IProject[] = [
         id:3,
         name: 'My Blog App',
         description: 'Blog app made with Ruby on Rails. User can make posts, comments and likes on posts of other users. Also user can delete posts and comments created by user. User can edit profile and delete account if not happy. For creating posts and comments user must login. Admin can manage all.',
-        image_url: '/images/math_magicians.png',
+        image_url: '/images/mywebsite.png',
         deployed_url: 'https://github.com/jerryowusu/myblogapp',
         github_link: 'https://github.com/jerryowusu/myblogapp',
         category: ['Ruby/Rails'],
@@ -142,7 +173,7 @@ export const projects: IProject[] = [
         image_url: '/images/websummit.png',
         deployed_url: 'https://jerryowusu.github.io/Web-Summit-Accra/',
         github_link: 'https://github.com/jerryowusu/Web-Summit-Accra',
-        category: ['TypeScript/JS', 'HTML/CSS'],
+        category: ['HTML/CSS'],
         tech_stacks: ['JavaScript', 'HTML/CSS']
       },
       {
@@ -159,12 +190,13 @@ export const projects: IProject[] = [
         id:6,
         name: 'Recipe App',
         description: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe',
-        image_url: '/images/websummit.png',
+        image_url: '/images/recipes.png',
         deployed_url: 'https://github.com/jerryowusu/Recipe-App',
         github_link: 'https://github.com/jerryowusu/Recipe-App',
         category: ['Ruby/Rails'],
         tech_stacks: ['Ruby', 'Rails', 'Postgresql', 'Bootstrap']
-      }
+      },
+      
 ]
 
 export default services;
