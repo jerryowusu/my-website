@@ -130,7 +130,7 @@ export const projects: IProject[] = [
             name: 'Car Rental',
             description: 'This is a car rental website that allows you to view a variety of cars and book them at different rates. User can see car details, delete or reserve a car. This is one of my first fullstack projects made with 2 other colleagues',
             image_url: '/images/car-rentals.png',
-            deployed_url: 'https://my-website-q1xq02bnc-jerryowusu.vercel.app/',
+            deployed_url: 'https://jcar-rentals.herokuapp.com/',
             github_link: 'https://github.com/jerryowusu/final-capstone-frontend',
             category: ['TypeScript/JS', 'React/NextJs', 'Ruby/Rails'],
             tech_stacks: ['React', 'Redux', 'JavaScript', 'NextJs', 'Ruby on Rails', 'Postgresql', 'Bootstrap']
