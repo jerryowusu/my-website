@@ -111,7 +111,7 @@ export const projects: IProject[] = [
         description: 'Budget Manager is a Ruby on Rails capstone project about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
         image_url: '/images/budgetmanager.png',
         deployed_url: 'https://budget-manager1.herokuapp.com/',
-        github_link: 'https://github.com/jerryowusu/BudgetManagers',
+        github_link: 'https://github.com/jerryowusu/BudgetManager',
         category: ['Ruby/Rails'],
         tech_stacks: ['Ruby', 'Rails', 'Postgresql', 'Bootstrap']
       },
