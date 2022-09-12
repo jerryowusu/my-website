@@ -1,34 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My website
+
+My official portfolio website created with Typescript, React and NextJs. Designed with Tailwind Css and Framer Motion
+
+Live preview [here](https://my-website-h7rncqcv7-jerryowusu.vercel.app/). 
+
+ 
+  <img src="/images/mylightmode.png" width="100%" />
+  <img src="/images/mydarkmode.png" width="100%" />
+
+
+## Technologies
+
+Project is created with:
+
+* Typescript
+* NextJs
+* React
+* Tailwind Css
+* Linters
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running follow these simple example steps.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A Web Browser (preferably Google Chrome)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Setup
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Clone the GitHub Repository(https://github.com/jerryowusu/my-website.git)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Usage
 
-## Learn More
+Open index.html in Chrome
 
-To learn more about Next.js, take a look at the following resources:
+## Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👤 **Jerry Owusu**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Github : [@jerryowusu](https://github.com/jerryowusu)
+- Twitter: [@jerry owusu11](https://twitter.com/jerryowusu1)
+- LinkedIn : [@Jeremiah Owusu](https://www.linkedin.com/in/jerry-owusu/)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions, issues, and feature requests  are always welcome!
+
+Feel free to check the [issues page](https://github.com/jerryowusu/my-website/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
+
+## Contact
+
+Created by [@jerryowusu](https://github.com/jerryowusu) - feel free to contact me!
+
+
