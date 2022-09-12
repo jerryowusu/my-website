@@ -4,8 +4,10 @@ My official portfolio website created with Typescript, React and NextJs. Designe
 
 Live preview [here](https://my-website-h7rncqcv7-jerryowusu.vercel.app/). 
 
- 
+ ## Light Mode
   <img src="/public/images/mylightmode.png" width="100%" />
+
+## Dark Mode
   <img src="/public/images/mydarkmode.png" width="100%" />
 
 
