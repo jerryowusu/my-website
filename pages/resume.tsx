@@ -26,6 +26,7 @@ const resume = () => {
           <h5 className='my-2 text-xl font-bold'>BSc Computer Science </h5>
           <p className='font-semibold'>Amity University (2020 - 2023)</p>
           <p className='my-3'> I am currently pursuing a Bachelor of Computer Science degree at Amity University after undergoing a rigorous and intensive one-year full-stack web development training at Microverse.</p>
+          <p className='my-3'> Relevant courses include but are not limited to Human-Computer Interaction(HCI), Software Engineering and Modeling, Data Structure using C, Operating System Concepts, Object-Oriented Programming Using Java, Introduction to Data Base Management Systems, Unix Operating System, and Shell Programming, Python Programming, etc.</p>  
         </div>
         </motion.div>
       </div>
@@ -37,8 +38,11 @@ const resume = () => {
           <h5 className='my-3 text-2xl font-bold'>Experience</h5>
         <div>
           <h5 className='my-2 text-xl font-bold'> Complete Farmer </h5>
-          <p className='font-semibold'>Junior Software Engineer (2021 - present)</p>
-          <p className='my-3'> ...creating the company website with nextJs, react and nodejs</p>
+          <p className='font-semibold'>Junior Software Engineer (Oct 2020 - May 2021)</p>
+          <p className='my-3'> Implemented certain functionalities such as the homepage and dashboard in the company’s website using React and NextJs leading to increased user-friendliness which led to an increase of 25% in sales. 
+</p>
+             <p className='my-3'> Accomplished all other assigned duties effectively and proficiently as Tech support leading to high rate of customer satisfaction.
+</p>
         </div>
         </motion.div>
       </div>
