@@ -20,11 +20,11 @@ const Sidebar = () => {
         className="w-40 h-40 mx-auto my-4 rounded-full " />
         
         <h5 className='my-4 text-3xl font-medium tracking-wider font-Kaushan'> <span className='text-green' >Jerry</span>  Owusu</h5>
-        <p className='px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 dark:bg-black-500 rounded-full' >
+        <p className='drop-shadow px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 dark:bg-black-500 rounded-full' >
             Full-Stack Engineer
         </p>
         <a href="/images/Jeremiah-Owusu.pdf" target='_blank'
-            className='flex items-center justify-center px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-full'
+            className='drop-shadow flex items-center justify-center px-2 py-1 my-3 bg-gray-200 dark:bg-dark-200 rounded-full'
             download="Jeremiah-Owusu.pdf"
             >
             <GrDocumentDownload className='w-6 h-6 mx-3' /> Download Resume
@@ -40,7 +40,7 @@ const Sidebar = () => {
                 <FaAngellist className='w-8 h-8' />
             </a>
         </div>
-        <div className='py-4 my-5 bg-gray-200 dark:bg-dark-200 dark:bg-black-500' 
+        <div className='drop-shadow py-4 my-5 bg-gray-200 dark:bg-dark-200 dark:bg-black-500' 
             style={{marginLeft: '-1rem', marginRight: '-1rem'}}>
             <div className='flex items-center justify-center space-x-2' >
                 <GoLocation className='w-5 h-5'/>
@@ -49,12 +49,12 @@ const Sidebar = () => {
             <p className='my-2'>jerryowusu6133@gmail.com</p>
             <p className='my-2'>+233248045875</p>
         </div>
-        <button className='w-8/12 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-500 focus:outline-none' 
+        <button className='drop-shadow w-8/12 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-500 focus:outline-none' 
         onClick={() => window.open('mailto: jerryowusu6133@gmail.com')}
         >Contact me</button>
         <button 
         onClick={changeTheme}
-        className='w-8/12 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-500 ' >
+        className='drop-shadow w-8/12 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-500 ' >
          Toggle Theme
          </button>
     </div>
