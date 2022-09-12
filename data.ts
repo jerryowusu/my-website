@@ -31,7 +31,7 @@ export const languages: ISkill[] = [
     {
         Icon: BsCircleFill,
         name: 'JavaScript',
-        level: '83%',
+        level: '93%',
     },
     {
         Icon: BsCircleFill,
@@ -41,7 +41,7 @@ export const languages: ISkill[] = [
     {
         Icon: BsCircleFill,
         name: 'React',
-        level: '70%',
+        level: '86%',
     },
     {
         Icon: BsCircleFill,
@@ -51,27 +51,27 @@ export const languages: ISkill[] = [
     {
         Icon: BsCircleFill,
         name: 'Ruby',
-        level: '60%',
+        level: '90%',
     },
     {
         Icon: BsCircleFill,
         name: 'Ruby on Rails',
-        level: '69%',
+        level: '92%',
     },
     {
         Icon: BsCircleFill,
         name: 'Tailwind CSS',
-        level: '72%',
+        level: '88%',
     },
     {
         Icon: BsCircleFill,
         name: 'Bootstrap',
-        level: '79%',
+        level: '89%',
     },
     {
         Icon: BsCircleFill,
         name: 'Python',
-        level: '40%',
+        level: '50%',
     }
 ]
 
@@ -95,11 +95,11 @@ export const tools: ISkill[] = [
     {
         Icon: BsCircleFill,
         name: 'PhotoShop',
-        level: '49%',
+        level: '90%',
     },
     {
         Icon: BsCircleFill,
-        name: 'Google',
+        name: 'Googling',
         level: '96%',
     }
 ]
